@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 15px 50px 15px 50px;
+}
+
+main ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+main li {
+    border: 1px solid #8b8b8b;
+    width: 290px;
+    height: 290px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+main li:hover {
+    transform: scale(1.05);
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folder img {
+    height: 150px;
+    object-fit: contain;
+}
+
+.texto {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+li button {
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #1a6e00;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+li button:hover {
+    background-color: #7efa59;
+    color: #114402;
+    font-weight: bolder;
+    font-size: 11px;
+    cursor: pointer;
+}
+
