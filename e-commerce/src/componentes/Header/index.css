@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 5px 50px;
+    width: 100%;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navegacao ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.pesquisar form {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pesquisar form input {
+    background-color: rgb(209, 209, 209);
+    height: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pesquisar form button {
+    border-radius: 8px;
+    background-color: rgb(3, 3, 173);
+    color: #fff;
+    padding: 0 10px;
+}
+
+.pesquisar form button:hover {
+    color: rgb(3, 3, 173);
+    background-color: aqua;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 12.4px;
+}
